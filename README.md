@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 RSTC Profile Website
 
-## Getting Started
+Website **Company Profile Rumah Sakit Kemenkes**  
+Dikembangkan menggunakan **Next.js 16**, **React 19**, **Tailwind CSS 4**, dan **TypeScript 5** untuk menghasilkan tampilan modern, performa cepat, serta struktur kode yang mudah dikelola.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Kategori | Teknologi | Versi |
+|-----------|------------|--------|
+| Runtime Environment | Node.js | v22.x |
+| Package Manager | npm | v11.6.2 |
+| Framework | Next.js | v16.0.0 |
+| Library UI | React | v19.2.0 |
+| Styling | Tailwind CSS | v4.0.0 |
+| Bahasa | TypeScript | v5.9.3 |
+| Linter | ESLint | v9 |
+| Plugin Tambahan | @tailwindcss/postcss, eslint-config-next | Terbaru |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Struktur Folder
 
-## Learn More
+rstc-profile/
+├── app/
+│ ├── layout.tsx # Struktur layout utama (header, footer, dll)
+│ ├── page.tsx # Halaman utama (landing page)
+│ ├── components/ # Komponen reusable (navbar, card, button, dll)
+│ ├── sections/ # Bagian-bagian page (hero, about, contact, dll)
+│ └── (page lain akan ditambahkan setelah final desain)
+├── public/ # Aset publik (gambar, logo, ikon)
+├── styles/
+│ └── globals.css # File CSS utama untuk Tailwind
+├── tailwind.config.js # Konfigurasi Tailwind CSS
+├── tsconfig.json # Konfigurasi TypeScript
+├── package.json # Informasi project & dependencies
+└── README.md # Dokumentasi project
 
-To learn more about Next.js, take a look at the following resources:
+Website ini bertujuan untuk:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Menyediakan platform informasi resmi bagi Rumah Sakit di bawah Kementerian Kesehatan.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Meningkatkan kredibilitas dan visibilitas online rumah sakit.
 
-## Deploy on Vercel
+Memudahkan pengguna untuk mengakses informasi seperti profil, layanan, fasilitas, dan kontak.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Mengimplementasikan SEO dan performa optimal agar situs dapat diakses cepat dan ramah mesin pencari.
